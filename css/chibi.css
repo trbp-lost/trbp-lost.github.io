@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif; 
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  overflow-x: hidden;
+  color: blue;
+  background-image: url(https://bejiguy.000webhostapp.com/source/miku.mp4);
+}
+
+video{
+    height: 50%;
+}
+
+.head {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+}
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.box video {
+  min-width: 100%;
+  min-height: 100%;
+}
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 45, 1);
+  background: rgba(0, 0, 45, 1);
+  z-index: 1;
+  opacity: 0.85;
+}
+.content {
+  z-index: 99;
+  width: 400px;
+  margin: auto;
+}
+.content h1{
+  font-size: 50px;
+}
+a {
+  border: 2px solid blue;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px;
+  text-decoration: none;
+  cursor: grab;
+}
